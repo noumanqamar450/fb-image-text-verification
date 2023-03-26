@@ -1,0 +1,38 @@
+ .imageOutput {
+    position: relative;
+ }
+ /* #screenshot {
+     position: absolute;
+     z-index: 1;
+ } */
+
+ #draw {
+     position: absolute;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     pointer-events: none;
+ }
+
+ #draw #boxes {
+     fill: blue;
+     stroke: white;
+     stroke-width: 1;
+     fill-opacity: 0.3;
+     stroke-opacity: 0.8;
+ }
+
+ #draw #marquee {
+     fill: white;
+     stroke: red;
+     stroke-width: 1;
+     stroke-dasharray: 5, 5;
+     stroke-opacity: 0.9;
+     fill-opacity: 0.2;
+ }
+
+ #draw #marquee.hide {
+     display: none;
+ }
+
+ 
